@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="cucumber-restassured" />
+        <module name="java-cucumber-restassured" />
       </profile>
     </annotationProcessing>
   </component>

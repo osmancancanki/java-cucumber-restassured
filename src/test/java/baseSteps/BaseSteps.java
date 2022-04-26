@@ -9,7 +9,7 @@ import java.util.List;
 
 public class BaseSteps {
 
-    public static List<String> SwaggerPost (String name, String surname){
+    public static List<String> swaggerPost (String name, String surname){
 
         List<String> ResponseList = new ArrayList<>();
         int statusCode;
@@ -31,7 +31,7 @@ public class BaseSteps {
         return ResponseList;
     }
 
-    public List<String> SwaggerGet (){
+    public List<String> swaggerGet (){
 
         List<String> ResponseList = new ArrayList<>();
         int statusCode;
@@ -49,7 +49,7 @@ public class BaseSteps {
         return ResponseList;
     }
 
-    public List<String> SwaggerDelete (){
+    public List<String> swaggerDelete (){
 
         List<String> ResponseList = new ArrayList<>();
         int statusCode;

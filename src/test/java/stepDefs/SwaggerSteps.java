@@ -19,7 +19,7 @@ public class SwaggerSteps extends BaseSteps {
 
     @When("^Send a sample get request$")
     public void send_a_sample_get_request(){
-        List<String> responseList = SwaggerGet();
+        List<String> responseList = swaggerGet();
         responseCode = responseList.get(0);
     }
 
